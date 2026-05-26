@@ -90,7 +90,7 @@ export const Contact: React.FC = () => {
           <div className="flex flex-wrap gap-4 justify-center pt-4">
             {/* Email Button */}
             <a
-              href="https://mail.google.com/mail/?view=cm&to=nitinktr2003@gmail.com&su=Hello Nitin — Let's Work Together&body=Hi Nitin,"
+              href="https://mail.google.com/mail/?view=cm&to=nitinktr2003@gmail.com&su=Hello%20Nitin%20%E2%80%94%20Let%27s%20Work%20Together&body=Hi%20Nitin%2C"
               target="_blank"
               rel="noopener noreferrer"
               className="relative inline-flex items-center justify-center rounded-full text-xs font-semibold px-7 py-3.5 bg-text-primary text-bg hover:bg-bg hover:text-text-primary transition-all duration-300 hover:scale-105 cursor-pointer group shadow-lg focus:outline-none"

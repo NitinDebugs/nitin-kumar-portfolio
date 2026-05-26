@@ -182,7 +182,7 @@ export const Navbar: React.FC<NavbarProps> = ({ activeSection, onLinkClick }) =>
 
             {/* Say hi button */}
             <a
-              href="https://mail.google.com/mail/?view=cm&to=nitinktr2003@gmail.com&su=Hello%20Nitin%20%E2%80%94%20Let%27s%20Work%20Together"
+              href="https://mail.google.com/mail/?view=cm&to=nitinktr2003@gmail.com&su=Hello%20Nitin%20%E2%80%94%20Let%27s%20Work%20Together&body=Hi%20Nitin%2C"
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => setMobileMenuOpen(false)}
