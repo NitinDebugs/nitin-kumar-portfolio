@@ -47,18 +47,10 @@ export const Explorations: React.FC = () => {
       // 1. Pin the Left Content Panel
       ScrollTrigger.create({
         trigger: section,
+        start: 'top top',
+        end: 'bottom bottom',
         pin: content,
         pinSpacing: false,
-        start: "top top",
-        end: "+=200%",
-        scrub: true,
-        // Disable pin on mobile
-        invalidateOnRefresh: true,
-        onRefresh: () => {
-          if (window.innerWidth < 768) {
-            ScrollTrigger.getAll().forEach(t => t.kill());
-          }
-        }
       });
 
       // 2. Parallax column 1 (scrolls up)
